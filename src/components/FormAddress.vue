@@ -33,6 +33,9 @@
         }
       }
     },
+    activated () {
+      this.form.recipient = wizardData.name;
+    },
     props: {
       wizardData: {
         type: Object,
